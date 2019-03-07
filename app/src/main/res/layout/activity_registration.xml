@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainbg"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+    android:focusableInTouchMode="true"
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp">
+
+
+    <android.support.design.widget.TextInputLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="18dp"
+        android:ems="10"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:hint="NAME"
+        android:layout_marginBottom="15dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textColorHint="#000"
+        android:textColor="#000"     
+        android:id="@+id/phone"
+        android:hint="Phone no"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textColorHint="#000"
+        android:textColor="#000"       
+        android:id="@+id/college"
+        android:hint="College"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:elevation="5dp"
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_foe"
+        android:textSize="18dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:onClick="regform"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ecid"
+            android:id="@+id/ectext"
+            android:visibility="gone"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"/>
+
+
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "977545950745",
+    "firebase_url": "https://gateregistrations.firebaseio.com",
+    "project_id": "gateregistrations",
+    "storage_bucket": "gateregistrations.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977545950745:android:9ef22a280284a744",
+        "android_client_info": {
+          "package_name": "ketank.gateregistrations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977545950745-u5dfhflr5fu6o5vcci28rfnfrovn3m72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ketank.gateregistrations",
+            "certificate_hash": "2aedbdbea31b55d22741d5e58d867cc66de456ec"
+          }
+        },
+        {
+          "client_id": "977545950745-jt4amnqd98pb381ma93l8t7a8lvkf83j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxiVusPWSrv0fUJAYnMkczvDmUisomfqk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977545950745-jt4amnqd98pb381ma93l8t7a8lvkf83j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
